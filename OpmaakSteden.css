@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+header
+{
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	background-color: #4c7247;
+	border:7px black solid;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 146px;
+    background-color: #94aa91;
+	border:5px black solid;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0px 5px;
+    background-color: black;
+}
+
+nav a:hover {
+    background-color: #4c7247;
+}
+.middleSection
+{
+	float: left;
+	width: 100%;
+
+}
+.sectionLeft
+{
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	background-color: white;
+	border:3px black solid;
+	float: left;
+	width:30%;
+	height: 1263px;
+}
+.content
+{
+	margin: 0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	background-color: white;
+	border:3px black solid;
+	float:left;
+	width:50%;
+	height: 1263px;
+	text-align: center;
+}
+.content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.sectionRight
+{
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	background-color: white;
+	border:3px black solid;
+	float: right;
+	width:20%;
+	height: 1263px;
+}
+.sectionRight a {
+    color: #4c7247;   
+}
+.sectionRight a:visited {
+    color: #829c7e;
+}
+.sectionRight a:hover {
+    color: #365331;
+}
+footer
+{
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	background-color: #4c7247;
+	border:10px black solid;
+	clear: both;
+    height: 130px;
+	border: 5px black solid;
+}
+
+.kop
+{
+	color: white;
+	text-align: center;
+	font-size: 48px;
+}
+.zwart
+{
+    color: black;
+}
+.welkom
+{
+	font-size: 35px;
+} 
+.pagina
+{
+	font-size: 45px;
+} 
+.kopColor
+{
+	color: white;
+}
+footer .kop {
+    position: relative;
+    top: 13px;
+}
