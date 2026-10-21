@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>Quiz! - Ontdek Thailand</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Opmaaksteden.css">
+	<link rel="icon" type="image/x-icon" href="thaisevlag.ico">
+	<style>
+		div.a {
+  font-size: 100px;
+  color: white;
+}
+div.b {
+  font-size: 30px;
+}
+        .quiz {
+            width: 90%; 
+			max-width: 900px; 
+			margin: 30px auto; 
+			padding: 25px; 
+			background-color: white; 
+			border: 3px black solid;
+        }
+		.quiz h1 { 
+		color: #4c7247; 
+		font-size: 40px; 
+		text-align: center; 
+		margin-bottom: 10px; 
+		} 
+		
+		.quiz-intro { 
+		text-align: center; 
+		font-size: 20px; 
+		margin-bottom: 30px; 
+		} 
+		
+		.vraag { 
+		background-color: #94aa91; 
+		border: 3px black solid; 
+		padding: 20px; 
+		margin-bottom: 20px; 
+		} 
+		
+		.vraag h2 { 
+		color: black; 
+		font-size: 25px; 
+		margin-bottom: 10px; 
+		} 
+		
+		.vraag p { 
+		font-size: 18px; 
+		margin-bottom: 10px; 
+		} 
+		
+		.vraag input { 
+		width: 70%; 
+		padding: 12px; 
+		font-size: 16px; 
+		border: 2px black solid; 
+		} 
+
+        .nakijken {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nakijken button {
+    padding: 15px 35px;
+    background-color: #4c7247;
+    color: white;
+    border: 3px black solid;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nakijken button:disabled {
+    background-color: #94aa91;
+    cursor: not-allowed;
+}
+
+.nakijken button:not(:disabled):hover {
+    background-color: #365331;
+}
+
+.resultaat {
+    display: none;
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+#eindresultaat {
+    display: none;
+    background-color: #4c7247;
+    color: white;
+    border: 3px black solid;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+</style>
+</head>
+
+<body>
+    <header> 
+        <div class="a">Ontdek Thailand</div>
+    </header>
+
+    <nav> <br> 
+  <strong>  <div class="kop pagina">Quiz!</div> <br> </strong>
+
+    <a href="WebsiteVanLiesAttema.html">Home</a>
+    <a href="Activiteiten.html">Activiteiten</a>
+    <a href="steden.html">Steden</a>
+	<a href="natuur.html">Natuur</a>
+    <a href="kaart.html">Kaart</a>
+	<a href="reisenovernachting.html">Reis & overnachting</a>
+	<a href="Vaccinaties.html">Vaccinaties</a>
+	<a href="Quiz.html">Quiz!</a>
+    </nav>
+<br>
+<main>
+    <h1> Heb je van <i> Ontdek Thailand </i> geleerd? Check het! </h1> <br>
+
+    <p>Maak de quiz!</p>
+<p>Lees de vraag en bekijk het antwoord door op de knop te drukken. Hoeveel vragen heb jij goed? </p> <br>
+<div class="quiz"> <h1>Thailand Quiz</h1> 
+<p>Test hoeveel jij weet over Thailand!</p> <br>
+<div class="vraag"> 
+<h2>Vraag 1</h2> 
+<p>Wat is de hoofdstad van Thailand?</p> 
+<input type="text" id="antwoord1" placeholder="Typ je antwoord..."> 
+<p id="resultaat1" class="resultaat"></p> <br>
+</div> 
+
+<div class="vraag"> 
+<h2>Vraag 2</h2> 
+<p>Wat is de munteenheid van Thailand?</p> 
+<input type="text" id="antwoord2" placeholder="Typ je antwoord..."> 
+<p id="resultaat2" class="resultaat"></p> <br>
+</div>  
+
+<div class="vraag"> 
+<h2>Vraag 3</h2> 
+<p>Hoe heette Thailand vroeger?</p> 
+<input type="text" id="antwoord3" placeholder="Typ je antwoord..."> 
+<p id="resultaat3" class="resultaat"></p> <br>
+</div>  
+
+<div class="vraag"> 
+<h2>Vraag 4</h2> 
+<p>Welke kleur staat in het midden van de vlag van Thailand?</p> 
+<input type="text" id="antwoord4" placeholder="Typ je antwoord...">
+<p id="resultaat4" class="resultaat"></p> <br>
+</div> 
+
+<div class="vraag"> 
+<h2>Vraag 5</h2> 
+<p>Wat is het beroemde Thaise noedelgerecht dat vaak wordt gemaakt met gebakken rijstnoedels?</p> 
+<input type="text" id="antwoord5" placeholder="Typ je antwoord...">
+<p id="resultaat5" class="resultaat"></p> <br>
+</div>  
+
+<div class="vraag"> 
+<h2>Vraag 6</h2> 
+<p>Welke stad ligt in het noorden van Thailand en staat bekend om zijn vele tempels?</p> 
+<input type="text" id="antwoord6" placeholder="Typ je antwoord...">
+<p id="resultaat6" class="resultaat"></p> <br>
+</div> 
+
+<div class="vraag"> 
+<h2>Vraag 7</h2> 
+<p>Welke religie heeft een grote invloed op de Thaise cultuur?</p> 
+<input type="text" id="antwoord7" placeholder="Typ je antwoord...">
+<p id="resultaat7" class="resultaat"></p> <br>
+</div> 
+
+<div class="vraag"> 
+<h2>Vraag 8</h2> 
+<p>Hoe heet de traditionele Thaise begroeting waarbij je je handpalmen tegen elkaar houdt?</p> 
+<input type="text" id="antwoord8" placeholder="Typ je antwoord..."> 
+<p id="resultaat8" class="resultaat"></p> <br>
+</div> 
+
+<div class="vraag"> 
+<h2>Vraag 9</h2> 
+<p>Welke bekende badplaats ligt aan de oostkust van de Golf van Thailand?</p> 
+<input type="text" id="antwoord9" placeholder="Typ je antwoord..."> 
+<p id="resultaat9" class="resultaat"></p> <br>
+</div>  
+
+<div class="vraag">
+ <h2>Vraag 10</h2> 
+<p>Hoe heet het grootste eiland van Thailand?</p> 
+<input type="text" id="antwoord10" placeholder="Typ je antwoord...">
+<p id="resultaat10" class="resultaat"></p> <br>
+</div> 
+
+<div class="nakijken">
+    <button id="nakijkKnop" onclick="nakijken()" disabled>
+        Nakijken
+    </button>
+</div>
+
+<button onclick="toonAntwoorden()" id="antwoordKnop">
+    Bekijk antwoorden
+</button>
+
+<p id="alleAntwoorden" style="display:none;">
+1. Bangkok<br>
+2. Baht<br>
+3. Siam<br>
+4. Blauw<br>
+5. Pad Thai<br>
+6. Chiang Mai<br>
+7. Boeddhisme<br>
+8. Wai<br>
+9. Pattaya<br>
+10. Phuket
+</p>
+
+<div id="eindresultaat">
+</div> 
+</div> 
+
+
+<script>
+const antwoorden = {
+    1: "bangkok",
+    2: "baht",
+    3: "siam",
+    4: "blauw",
+    5: "pad thai",
+    6: "chiang mai",
+    7: "boeddhisme",
+    8: "wai",
+    9: "pattaya",
+    10: "phuket"
+};
+
+function controleerInvoer() {
+
+    let allesIngevuld = true;
+
+    for (let i = 1; i <= 10; i++) {
+
+        let antwoord = document.getElementById("antwoord" + i).value.trim();
+
+        if (antwoord === "") {
+            allesIngevuld = false;
+        }
+    }
+
+    let knop = document.getElementById("nakijkKnop");
+
+    knop.disabled = !allesIngevuld;
+}
+
+function nakijken() {
+
+    let score = 0;
+
+    for (let i = 1; i <= 10; i++) {
+
+        let antwoord = document.getElementById("antwoord" + i).value;
+
+        antwoord = antwoord.toLowerCase().trim();
+
+        let resultaat = document.getElementById("resultaat" + i);
+
+        resultaat.style.display = "block";
+
+        if (antwoord === antwoorden[i]) {
+
+            resultaat.innerHTML = "✅ Goed!";
+            score++;
+
+        } else {
+
+            resultaat.innerHTML = "❌ Fout!";
+        }
+    }
+
+    let eindresultaat = document.getElementById("eindresultaat");
+
+    eindresultaat.innerHTML =
+        "🎉 Je hebt " + score + " van de 10 vragen goed!";
+
+    eindresultaat.style.display = "block";
+
+    document.getElementById("nakijkKnop").disabled = true;
+}
+
+for (let i = 1; i <= 10; i++) {
+
+    document.getElementById("antwoord" + i).addEventListener("input", controleerInvoer);
+
+}
+function toonAntwoorden() {
+    let antwoorden = document.getElementById("alleAntwoorden");
+    let knop = document.getElementById("antwoordKnop");
+
+    if (antwoorden.style.display === "none") {
+        antwoorden.style.display = "block";
+        knop.innerHTML = "Verberg antwoorden";
+    } else {
+        antwoorden.style.display = "none";
+        knop.innerHTML = "Bekijk antwoorden";
+    }
+}
+
+</script>
+</main>
+</body>
+</html>
