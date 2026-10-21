@@ -1,0 +1,380 @@
+* {
+	box-sizing: border-box;
+}
+header
+{
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	background-color: #4c7247;
+	border:7px black solid;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 146px;
+    background-color: #94aa91;
+	border:5px black solid;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0px 5px;
+    background-color: black;
+}
+
+nav a:hover {
+    background-color: #4c7247;
+}
+.middleSection
+{
+	float: left;
+	width: 100%;
+
+}
+.sectionLeft
+{
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	background-color: white;
+	border:3px black solid;
+	float: left;
+	width:30%;
+	height: 1263px;
+}
+.content
+{
+	margin: 0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	background-color: white;
+	border:3px black solid;
+	float:left;
+	width:50%;
+	height: 1263px;
+	text-align: center;
+}
+.content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.sectionRight
+{
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	background-color: white;
+	border:3px black solid;
+	float: right;
+	width:20%;
+	height: 1263px;
+}
+.sectionRight a {
+    color: #4c7247;   
+}
+.sectionRight a:visited {
+    color: #829c7e;
+}
+.sectionRight a:hover {
+    color: #365331;
+}
+footer
+{
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	background-color: #4c7247;
+	border:10px black solid;
+	clear: both;
+    height: 130px;
+	border: 5px black solid;
+}
+
+.kop
+{
+	color: white;
+	text-align: center;
+	font-size: 48px;
+}
+.zwart
+{
+    color: black;
+}
+.welkom
+{
+	font-size: 35px;
+} 
+.pagina
+{
+	font-size: 45px;
+} 
+.kopColor
+{
+	color: white;
+}
+footer .kop {
+    position: relative;
+    top: 13px;
+}
+.kaartContainer {
+    position: relative;
+    width: 100%;
+}
+
+.kaartContainer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.inzoomen {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: table;
+    color: white;
+    text-decoration: none;
+    padding: 30px 60px;
+    background-color: black;
+	font-size: 30px;
+}
+
+.inzoomen:hover {
+    background-color: #4c7247;
+}
+.inzoomenkrabi {
+    position: absolute;
+    top: 313.7%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+    display: table;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: black;
+	font-size: 20px;
+}
+.inzoomenkrabi:hover {
+    background-color: #4c7247;
+}
+.inzoomenchiangrai {
+    position: absolute;
+    top: 62%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+
+    display: table;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: black;
+	font-size: 20px;
+}
+
+.inzoomenchiangrai:hover {
+    background-color: #4c7247;
+}
+.inzoomenchiangmai {
+    position: absolute;
+    top: 86%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+    display: table;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: black;
+	font-size: 20px;
+}
+.inzoomenchiangmai:hover {
+    background-color: #4c7247;
+}
+.inzoomenbangkok {
+    position: absolute;
+    top: 194%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+
+    display: table;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: black;
+	font-size: 20px;
+}
+.inzoomenbangkok:hover {
+    background-color: #4c7247;
+}
+.inzoomenphuket {
+    position: absolute;
+    top: 321%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+
+    display: table;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: black;
+	font-size: 20px;
+}
+.inzoomenphuket:hover {
+    background-color: #4c7247;
+}
+.inzoomenayutthaya {
+    position: absolute;
+    top: 173.5%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+    display: table;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: black;
+	font-size: 20px;
+}
+.inzoomenayutthaya:hover {
+    background-color: #4c7247;
+}
+.uitzoomen {
+    position: absolute;
+    top: 39%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+
+    display: table;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: #4c7247;
+	font-size: 20px;
+}
+.uitzoomen:hover {
+    background-color: black;
+}
+.uitleg {
+    width: 70%;
+    line-height: 1.6;
+}
+.uitleg {
+    width: 80%;
+    max-width: 900px;
+    line-height: 1.6;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+.vaccinaties {
+    width: 80%;
+    max-width: 900px;
+    line-height: 1.6;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+.vaccinaties li {
+    margin-bottom: 20px;
+}
+.vaccinatie {
+    position: absolute;
+    top: 500px;
+    right: 400px;
+    width: 500px;
+    height: auto;
+}
+.vliegtuig {
+    position: absolute;
+    top: 300px;
+    right: 400px;
+    width: 500px;
+    height: auto;
+}
+.hostel {
+    position: absolute;
+    top: 900px;
+    right: 400px;
+    width: 500px;
+    height: auto;
+}
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.kaart {
+    position: relative;
+    width: 100%;
+}
+
+.kaart img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#hierheen {
+    position: absolute;
+    top: 18%;
+    left: 60%;
+    font-size: 30px;
+    color: white;
+    z-index: -1;
+}
+
+.inzoomenkrabi,
+.inzoomenchiangrai,
+.inzoomenchiangmai,
+.inzoomenbangkok,
+.inzoomenphuket,
+.inzoomenayutthaya,
+.uitzoomen {
+    z-index: 3;
+}
+figure {
+    position: absolute;
+    width: 200px;
+    text-align: center;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.boeddha {
+    top: 690px;
+    left: 1000px;
+}
+
+.paleis {
+    top: 720px;
+    left: 1300px;
+}
+.bangla {
+    top: 870px;
+    left: 1570px;
+}
+.buddha {
+    top: 1070px;
+    left: 1000px;
+}
+.wat {
+    top: 970px;
+    left: 1300px;
+}
